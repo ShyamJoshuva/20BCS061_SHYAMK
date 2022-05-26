@@ -1,0 +1,92 @@
+<html>
+    <head><title>Student allocation</title>
+    <style>
+        .lt{
+          height:100%;
+          width:40%;
+          float:left;
+          background-color: orangered;
+          text-align: center;
+          color:aliceblue;
+          font-size:xx-large;
+          font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }
+            .rt{
+                height:100%;
+                width:60%;
+                float:right;
+                background-color: antiquewhite;
+                text-align: center;
+                color: orangered;
+                font-size:large;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }  
+            .center{
+                float:center;
+            }
+            .form
+            {
+                text-align: left;
+            }
+        
+            .submit{
+                height:5%;
+          width:10%;
+          float:center;
+          background-color: orangered;
+          text-align: center;
+          color:aliceblue;
+          font-size:medium;
+          font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }
+            #fill{
+                font-size:100% ;
+                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }
+    </style>
+    </head>
+<body>
+    <div>
+        <div class="lt">
+            <br>  <br>   <br>  <br>  <br>  <br>  <br>
+                <p>EXAM CELL AUTOMATION</p>
+                <br>  <br>   <br>  <br>  <br>  <br>   <br>  <br>   <br>  <br> </div>
+                <div class="rt">
+                    <br>  <br>   <br>  <br>  <br>  <br>
+                    
+  <p id="fill"> Fill in the details</p>
+  <div class="form">
+    <form method="POST" id="form_2">
+
+        <br>
+        <label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Date:<label>
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;<input type = "date" name="date"><br><br>
+        
+        <label >&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Year:</label>
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;<select name = "year">
+                 <option value="I">Ist year</option>
+                     <option value="II">IIrd year</option>
+                     <option value="III">IIIrd year</option>
+                     <option value="IV">IVth year</option>
+                  </select><br><br>
+        
+                  <label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Number of Departments:</label>
+                  &emsp;&emsp;&emsp;&emsp;&ensp; <input type="textbox" placeholder="No.of Departments"> <br><br>
+
+        <label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Number of seats:</label>
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="textbox" placeholder="No.of seats"> <br><br>
+        
+        <label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Number of halls:</label>
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="textbox" placeholder="No.of halls"> <br><br>
+        <label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Upload your file for allocation</label>
+        <br><br>
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="file" id="myFile" name="filename"><br>
+        <br>
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="submit" value="Allocate" class="submit" >
+        
+        </form>
+        
+        </div>
+        </div>
+</body>
+</html>
